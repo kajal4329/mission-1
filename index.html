@@ -30,11 +30,20 @@ rel="stylesheet"
     <section class="hero__container">
         <div class="hero__image__container">
             <img class="hero__image" src="./assets/hero.jpg" alt="hero image" />
+            <img
+            src="./assets/svg/heroShape.svg"
+            alt="hero image shape"
+            class="hero__image__shape"
+          />
+          <img
+            src="./assets/svg/herobgpattren.svg"
+            alt="hero image shape"
+            class="hero__image__pattren"
+          />
         </div>
         <div class="hero__description">
             <h1 class="hero__text">
                 Order Food from favourite restaurants near you!
-
             </h1>
             <button class="button__primary">Order Now</button>
         </div>
@@ -49,8 +58,8 @@ rel="stylesheet"
         <div class="food__menu__card">
             <img src="./assets/burger.jpg" alt="burger" class="food__image"/>
             <div class="food__menu__card__description">
-                <h3 class="food__title">Burgers</h3>
-                <p class="food__restaurants">Burger King,Mcdonalds,Burger Place<span style="color:red">+3</span></p>
+                <h4 class="food__title"><strong>Burgers</strong></h4>
+                <p>Burger King, Mcdonalds, Burger Place<span style="color:red">+3</span></p>
             </div>
         </div>
 
@@ -59,7 +68,7 @@ rel="stylesheet"
         <div class="food__menu__card" id="pizza__card">
             <img src="./assets/pizza.jpg" alt="pizza" class="food__image"/>
             <div class="food__menu__card__description">
-                <h3 class="food__title">Pizza</h3>
+                <h4 class="food__title"><strong>Pizza</strong></h4>
                 <p class="food__restaurants">Pizza Hut,Domino's Pizza<span style="color:red">+3</span></p>
             </div>
             </div>
@@ -68,7 +77,7 @@ rel="stylesheet"
             <div class="food__menu__card" id="ice__cream__card">
                 <img src="./assets/iceCream.jpg" alt="icecream" class="food__image"/>
                 <div class="food__menu__card__description">
-                    <h3 class="food__title">Ice Creams</h3>
+                    <h4 class="food__title"><strong>Ice Creams</strong></h4>
                     <p class="food__restaurants">Baskin Robins,Ibaco<span style="color:red">+3</span></p>
                 </div>
                 </div>
@@ -81,7 +90,7 @@ rel="stylesheet"
 
     <!--Restaurants-->
     <section class="restaurants__container">
-        <h1 class="restaurants__description">Order From 100s of restaurants</h1>
+        <h4 class="restaurants__description">Order From 100s of restaurants</h4>
         <div class="restaurants__flex">
             <div class=restaurants__flex__row__one>
             <div class="restaurant__1">
@@ -113,6 +122,20 @@ rel="stylesheet"
                 </div>
                 </div>
             </section>
-    </main>
+    
+    <section class="email_subscribe_container">
+        <div>
+            <h1 class="text-xl">Stay Updated</h1>
+            <div class="email_subscrible_input_field">
+                <div>
+                    <input type="email"
+                    placeholder="email@email.com"
+                    class="email_input"/>
+                </div>
+                <button class="button__primary">Get Updates</button>
+            </div>
+        </div>
+    </section>
+</main>
     </body>
 </html>
